@@ -209,7 +209,7 @@ describe('Integration: API Workflow', () => {
       expect(searchResults.length).toBeGreaterThan(0);
 
       const gaminvestCompany = searchResults.find(c =>
-        c.name.toUpperCase().includes('GAMINVEST') && c.statusLabel === 'Funcțiune'
+        c.name.toUpperCase().includes('GAMINVEST') && c.cui.toString() === GAMINVEST_CIF
       );
       expect(gaminvestCompany).toBeDefined();
 
