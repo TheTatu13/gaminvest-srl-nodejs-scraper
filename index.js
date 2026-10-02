@@ -1,4 +1,4 @@
-import fetch from "node-fetch";
+import { fetchWithRetry as fetch, assertCanary } from "./src/premium.js";
 import * as cheerio from "cheerio";
 import fs from "fs";
 import { fileURLToPath } from "url";
@@ -181,6 +181,7 @@ async function main() {
     console.log("=== Step 3: Scrape jobs from GAMINVEST website ===");
     const rawJobs = await scrapeAllListings();
     const scrapedCount = rawJobs.length;
+    assertCanary({ scraped: scrapedCount, existing: existingCount, source: "careers site" });
     console.log(`📊 Jobs scraped from GAMINVEST website: ${scrapedCount}`);
 
     const jobs = rawJobs.map(job => mapToJobModel(job, localCif));
