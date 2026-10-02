@@ -7,14 +7,14 @@
 | CIF | 21913994 |
 | Brand | GAMINVEST |
 | Status | activ |
-| Location | ONEŞTILOR, 29, Municipiul Oradea, Bihor |
+| Location | JUD. BIHOR, MUN. ORADEA, STR. ONEŞTILOR, NR.29, AP. SPAȚIU COMERCIAL 2-6, SC.A, ET.PARTER |
 | Website | [https://www.gaminvest.ro](https://www.gaminvest.ro) |
 | Careers | [https://www.gaminvest.ro/cariere.html](https://www.gaminvest.ro/cariere.html) |
-| Last Scraped | 2026-07-26 |
+| Last Scraped | 2026-10-02 |
 
 ## Current Job Listings (5)
 
-_Generated: 2026-07-26T08:18:44.020Z_
+_Generated: 2026-10-02T23:31:49.737Z_
 
 ### Broker imobiliar in Oradea
 
