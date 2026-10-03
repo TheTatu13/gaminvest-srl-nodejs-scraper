@@ -5,5 +5,5 @@
   "website": "https://www.gaminvest.ro",
   "careerUrl": "https://www.gaminvest.ro/cariere.html",
   "defaultLocation": "Oradea",
-  "scraperFile": "https://raw.githubusercontent.com/TheTatu13/gaminvest-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
+  "scraperFile": "https://raw.githubusercontent.com/peviitor-scrapers/gaminvest-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
 }

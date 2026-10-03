@@ -4,7 +4,7 @@
 GAMINVEST scraper for peviitor.ro (Node.js, ESM, Jest)
 
 ## 📐 This Repo Is a Template
-This repo is a **derived scraper** for GAMINVEST SRL in the peviitor.ro ecosystem. It was generated from the template at [sebiboga/epam-systems-international-srl-nodejs-scraper](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper).
+This repo is a **derived scraper** for GAMINVEST SRL in the peviitor.ro ecosystem. It was generated from the template at [peviitor-scrapers/epam-systems-international-srl-nodejs-scraper](https://github.com/peviitor-scrapers/epam-systems-international-srl-nodejs-scraper).
 
 When making changes to this template:
 - **All company-specific identity lives in `config/company.json`** (CIF, brand, legalName, URLs, API params). Read from `config/company.js` in Node code, or via `jq` in workflows. Never hardcode in source files.
